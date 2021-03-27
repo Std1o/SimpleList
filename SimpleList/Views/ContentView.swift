@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var gg = true;
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        LandmarkList()
     }
 }
 
